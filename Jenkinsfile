@@ -13,7 +13,6 @@ pipeline {
             steps {
                 script {
                     app = docker.build("izual512/wordpress-cust")
-                    }
                 }
             }
         }

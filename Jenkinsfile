@@ -14,7 +14,7 @@ pipeline {
                 script {
                     app = docker.build("izual512/wordpress-cust")
                     app.inside {
-                        sh 'echo $(curl localhost:8080)'
+                        sh 'echo $(curl localhost:8000)'
                     }
                 }
             }

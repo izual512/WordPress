@@ -1,4 +1,5 @@
 <?php
+echo “pj-test”;
 /**
  * Loads the WordPress environment and template.
  *
